@@ -18,16 +18,20 @@ header img{
 }
 
 main {
-    width: 44%;
+    width: 55%;
     padding: 1%;
 }
 
+main h1{
+    font-size: 40px;
+}
 
-#autor,#date{
+
+#author,#date{
     color: rgb(145, 145, 145);
 }
 
-#autor span{
+#author span{
     color: rgb(66, 186, 226);
 }
 
@@ -49,6 +53,39 @@ div img {
 
 #description {
     font-size: 12px;
+}
+
+ul{
+    padding-left: 2%;
+}
+
+p {
+    margin-top: 1%;
     margin-bottom: 1%;
 }
+
+p span {
+    background-color: yellow;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 1%
+}
+thead {
+    color: white;
+    background-color: rgb(73, 163, 236);
+}
+
+.prova {
+    background-color: lightblue;
+}
+
+/* ultimo td più lungo */
+td:last-child {
+    width: 60%;
+}
+
 
