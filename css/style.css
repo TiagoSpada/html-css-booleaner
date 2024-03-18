@@ -10,8 +10,45 @@ header {
     padding-top: 2%;
     background-size: 16.8%;
     background-repeat: repeat-x;
+    padding-left: 1%;
 }
 
 header img{
     width: 8%;
 }
+
+main {
+    width: 44%;
+    padding: 1%;
+}
+
+
+#autor,#date{
+    color: rgb(145, 145, 145);
+}
+
+#autor span{
+    color: rgb(66, 186, 226);
+}
+
+#date {
+    margin-bottom: 0.7%;
+}
+
+.left-image{
+    width: 53.5%;
+}
+
+.right-image{
+    width: 45.75%;
+}
+
+div img {
+    display: inline-block;
+}
+
+#description {
+    font-size: 12px;
+    margin-bottom: 1%;
+}
+
